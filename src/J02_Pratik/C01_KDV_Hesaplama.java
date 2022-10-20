@@ -1,11 +1,8 @@
 package J02_Pratik;
-
 import java.util.Scanner;
-
 public class C01_KDV_Hesaplama {
     public static void main(String[] args) {
         double price, kdVratio=0.18, kdVprice, priceWithKDV;
-
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Please enter the price of pruduct : ");
