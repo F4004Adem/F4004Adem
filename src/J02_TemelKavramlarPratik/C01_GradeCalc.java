@@ -1,4 +1,4 @@
-package J02_Pratik;
+package J02_TemelKavramlarPratik;
 
 import java.util.Scanner;
 

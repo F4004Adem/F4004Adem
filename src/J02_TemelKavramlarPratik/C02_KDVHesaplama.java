@@ -1,6 +1,8 @@
-package J02_Pratik;
+package J02_TemelKavramlarPratik;
+
 import java.util.Scanner;
-public class C01_KDV_Hesaplama {
+
+public class C02_KDVHesaplama {
     public static void main(String[] args) {
         double price, kdVratio=0.18, kdVprice, priceWithKDV;
 
@@ -15,8 +17,5 @@ public class C01_KDV_Hesaplama {
         System.out.println("KDV Ratio = " + kdVratio);
         System.out.println("KDV value = " + kdVprice);
         System.out.println("Total price with KDV = " + priceWithKDV);
-
-
     }
-
 }
