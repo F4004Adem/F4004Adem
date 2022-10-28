@@ -1,7 +1,9 @@
 package J03_KosulluIfadelerVeKodBloklari;
 
 import java.util.Scanner;
-
+/*
+ hesap makinesini switch-case kullanarak yapınız.
+ */
 public class C05_Pratik_HesapMakinesi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

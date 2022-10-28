@@ -1,7 +1,11 @@
 package J03_KosulluIfadelerVeKodBloklari;
 
 import java.util.Scanner;
-
+/*
+Dersler : Matematik, Fizik, Türkçe, Kimya, Müzik
+Geçme Notu : 55
+Eğer girilen ders notları 0 veya 100 arasında değil ise ortalamaya katılmasın.
+ */
 public class C07_Pratik_SinifiGecmeDurumu {
     public static void main(String[] args) {
        int maths , physics, chemistry, turkish, music;
