@@ -6,14 +6,11 @@ import java.util.Scanner;
 public class C10_Pratik_ChallanceHackerRank {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
         int n;
+        Scanner input = new Scanner(System.in);
         System.out.println("Please enter a number :");
         n = input.nextInt();
-
         if ((n >= 1) && (n <= 100)) {
-
             if (n % 2 == 1) {
                 System.out.println("Weird");
             }else if ((n % 2 == 0) && (n >= 2) && (n <= 5)) {
