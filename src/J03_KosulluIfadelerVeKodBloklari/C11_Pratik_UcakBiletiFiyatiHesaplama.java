@@ -64,7 +64,6 @@ public class C11_Pratik_UcakBiletiFiyatiHesaplama {
                 if (yas < 12) {
                     total = (mesafe * kmBrim) * indirimKucuk12;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
-
                 } else if (yas < 24) {
                     total = (mesafe * kmBrim) * indirim12ve24;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
@@ -72,25 +71,20 @@ public class C11_Pratik_UcakBiletiFiyatiHesaplama {
                 } else if (65 <yas) {
                     total = (mesafe * kmBrim) * indirim65uzeri;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
-
                 } else {
                     total = (mesafe * kmBrim) * normal;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
                 }
-
             } else {
                 if (yas < 12) {
                     total = ((mesafe * kmBrim) * indirimKucuk12)*ciftYon;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
-
                 } else if (yas < 24) {
                     total = ((mesafe * kmBrim) * indirim12ve24)*ciftYon;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
-
                 } else if (65 < yas) {
                     total = ((mesafe * kmBrim) * indirim65uzeri)*ciftYon;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
-
                 } else {
                     total = ((mesafe * kmBrim) * normal)*ciftYon;
                     System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
