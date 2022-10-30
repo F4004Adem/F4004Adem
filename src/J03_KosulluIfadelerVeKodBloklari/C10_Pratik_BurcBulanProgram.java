@@ -16,6 +16,10 @@ Kova Burcu : 22 Ocak - 19 Şubat
 Balık Burcu : 20 Şubat - 20 Mart
 Aynı örneği switch-case kullanmadan yapınız.
  */
+//sdfadfgsfgdzf
+/*
+asdAFGsfgdghfghn
+ */
 public class C10_Pratik_BurcBulanProgram {
     public static void main(String[] args) {
        int month , day;
@@ -112,6 +116,7 @@ public class C10_Pratik_BurcBulanProgram {
             }else {isEror = true;
             }
         }
+        System.out.println();
        if (isEror){
            System.out.println("Hatali Giris yaptiniz = ");
        }else {

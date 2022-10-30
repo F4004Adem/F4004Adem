@@ -53,6 +53,7 @@ public class C11_Pratik_UcakBiletiFiyatiHesaplama {
         double total = 0;
         System.out.println("****** Patika Hava Yollarina Hos Geldiniz *****");
         Scanner scan = new Scanner(System.in);
+
         System.out.print("Gideceginiz Mesafeyi Giriniz Litfen : ");
         mesafe = scan.nextInt();
         System.out.print("Yasinizi Giriniz Lutfen : ");
@@ -78,16 +79,16 @@ public class C11_Pratik_UcakBiletiFiyatiHesaplama {
             } else {
                 if (yas < 12) {
                     total = ((mesafe * kmBrim) * indirimKucuk12)*ciftYon;
-                    System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
+                    System.out.print("Biletiniz Cift yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
                 } else if (yas < 24) {
                     total = ((mesafe * kmBrim) * indirim12ve24)*ciftYon;
-                    System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
+                    System.out.print("Biletiniz Cift yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
                 } else if (65 < yas) {
                     total = ((mesafe * kmBrim) * indirim65uzeri)*ciftYon;
-                    System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
+                    System.out.print("Biletiniz Cift yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
                 } else {
                     total = ((mesafe * kmBrim) * normal)*ciftYon;
-                    System.out.print("BiletinizTek yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
+                    System.out.print("Biletiniz Cift yon  Toplam  = " + total + " TL' dir. \n Patika hava Yollari Iyi Yolculuklar Diler");
                 }
             }
         } else {
