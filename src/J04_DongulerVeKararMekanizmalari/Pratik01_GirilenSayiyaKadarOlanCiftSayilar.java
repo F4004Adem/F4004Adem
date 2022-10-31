@@ -17,19 +17,25 @@ public class Pratik01_GirilenSayiyaKadarOlanCiftSayilar {
    //Task Java döngüler ile 0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e
       // tam bölünen sayıların ortalamasını hesaplayan programı yazınız.
 
-      int sayi;
- 
-    double average = 0;
+         int sayi,total=0, adet=0;
+         double average ;
     Scanner scanner = new Scanner(System.in);
       System.out.println("Please enter an Integer ; ");
       sayi = scanner.nextInt();
       for (int i = 1; i <=sayi; i++){
-        int toplam=1;
         if (i%3==0 && i%4==0 ){
-          System.out.println(i+", ");
+            System.out.print(  i+ ", ");
+            total +=i;
+            adet ++;
+
         }
 
       }
+        System.out.println("total : "+total);
+         average = total/(adet );
+        System.out.println("adet = " + adet);
+        System.out.println("average = " + average);
+
 
     }
 }
