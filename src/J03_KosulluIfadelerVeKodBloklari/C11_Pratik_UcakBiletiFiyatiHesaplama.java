@@ -53,7 +53,6 @@ public class C11_Pratik_UcakBiletiFiyatiHesaplama {
         double total = 0;
         System.out.println("****** Patika Hava Yollarina Hos Geldiniz *****");
         Scanner scan = new Scanner(System.in);
-
         System.out.print("Gideceginiz Mesafeyi Giriniz Litfen : ");
         mesafe = scan.nextInt();
         System.out.print("Yasinizi Giriniz Lutfen : ");
