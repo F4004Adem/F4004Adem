@@ -32,7 +32,7 @@ public class Pratik01_GirilenSayiyaKadarOlanCiftSayilar {
 
       }
         System.out.println("total : "+total);
-         average = total/(adet );
+         average = total/adet ;
         System.out.println("adet = " + adet);
         System.out.println("average = " + average);
 
