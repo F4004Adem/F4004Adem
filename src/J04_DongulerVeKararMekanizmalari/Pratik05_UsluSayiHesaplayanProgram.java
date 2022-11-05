@@ -15,6 +15,7 @@ programı "For Döngüsü" kullanarak yapınız.
         System.out.print("Us kuvveti olacak sayi giriniz  ;");
         k = scan.nextInt();
 
+
         for (int i =1 ; i<=k ; i ++) {
             total *=n;
         }
