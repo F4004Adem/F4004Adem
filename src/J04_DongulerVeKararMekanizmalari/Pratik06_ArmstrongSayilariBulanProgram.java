@@ -2,7 +2,7 @@ package J04_DongulerVeKararMekanizmalari;
 
 import java.util.Scanner;
 
-public class Pratik06_ArmstrongSayılarıBulanProgram {
+public class Pratik06_ArmstrongSayilariBulanProgram {
     public static void main(String[] args) {
 /*
 Armstrong Sayı Nedir ?
@@ -16,39 +16,35 @@ N haneli bir sayının basamaklarının n’inci üstlerinin toplamı, sayının
 
 54748=5^5+4^5+7^5+4^5+8^5=3125+1024+16807+1024+32768=54748
  */
+        int number;
         Scanner input = new Scanner(System.in);
-        System.out.print("Sayı Giriniz :");
-        int number = input.nextInt();
-        int basNumber = 0;
-        int tempNumber = number;
+        System.out.print("Sayı giriniz:");
+        number= input.nextInt();
+        int basNumber=0,tenpNumber=number;
         int basValue;
-        int result = 0;
+        int result=0;
         int basPow;
-
-        while (tempNumber != 0) {
-            tempNumber /= 10;
+        while (tenpNumber!=0){
+            tenpNumber/=10;
             basNumber++;
         }
-
-        tempNumber = number;
-        while (tempNumber != 0) {
-            basValue = tempNumber % 10;
-            // 1*1*1*1 = 1^4
-            basPow = 1;
-            for (int i = 1; i <= basNumber; i++) {
-                basPow *= basValue;
+        tenpNumber=number;
+        while (tenpNumber!=0){
+            basValue=tenpNumber%10;
+            basPow=1;
+            for (int i=1; i<=basNumber; i++)
+            {
+                basPow*=basValue;
             }
-            result += basPow;
-            tempNumber /= 10;
+            result+=basPow;
+            tenpNumber/=10;
         }
-
-        if (result == number) {
-            System.out.println(number + " sayısı bir Armstrong sayıdır.");
-        } else {
-            System.out.println(number + " sayısı bir Armstrong sayısı değildir.");
+        if (result==number){
+            System.out.print(number+" sayısı bir Armstrong sayıdır.");
         }
-
-
+        else {
+            System.out.println(number+" sayısı bir Armstrong sayı değildir.");
+        }
         /*
         int a = 2451, basamakSayisi = 0, numberCounter = 0;
 
