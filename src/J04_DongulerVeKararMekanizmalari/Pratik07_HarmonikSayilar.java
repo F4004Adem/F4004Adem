@@ -6,7 +6,6 @@ public class Pratik07_HarmonikSayilar {
     public static void main(String[] args) {
 /*
  Java ile girilen sayının harmonik serisini bulan program yazacağız.
-
 Harmonik Seri Formülü :
  */
         Scanner input = new Scanner(System.in);
