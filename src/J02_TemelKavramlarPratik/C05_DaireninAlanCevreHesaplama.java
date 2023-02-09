@@ -12,6 +12,5 @@ public class C05_DaireninAlanCevreHesaplama {
         System.out.println("Circle  area      = " + area);
         System.out.println("Circle  perimeter = " + perimeter);
 
-
     }
 }

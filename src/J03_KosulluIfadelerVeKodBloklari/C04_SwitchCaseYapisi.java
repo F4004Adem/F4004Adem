@@ -68,8 +68,6 @@ public class C04_SwitchCaseYapisi {
         }
 
 
-
-
         int points=6;
         switch(points)
         {

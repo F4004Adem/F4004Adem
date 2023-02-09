@@ -34,7 +34,5 @@ public class C05_Pratik_HesapMakinesi {
 
 
 
-
-
     }
 }
