@@ -20,6 +20,7 @@ Aynı örneği switch-case kullanmadan yapınız.
 /*
 asdAFGsfgdghfghn
  */
+
 public class C10_Pratik_BurcBulanProgram {
     public static void main(String[] args) {
        int month , day;
@@ -121,6 +122,7 @@ public class C10_Pratik_BurcBulanProgram {
            System.out.println("Hatali Giris yaptiniz = ");
        }else {
            System.out.println("Burcunuz = " + zodiak);
+
        }
     }
 }

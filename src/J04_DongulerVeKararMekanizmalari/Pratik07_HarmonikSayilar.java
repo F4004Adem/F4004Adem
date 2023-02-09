@@ -8,6 +8,8 @@ public class Pratik07_HarmonikSayilar {
  Java ile girilen sayının harmonik serisini bulan program yazacağız.
 Harmonik Seri Formülü :
  */
+
+
         Scanner input = new Scanner(System.in);
         int sayi;
         double harm = 0, unit = 0;
@@ -18,7 +20,6 @@ Harmonik Seri Formülü :
             harm += unit;
         }
         System.out.println(harm);
-
 
 
     }
