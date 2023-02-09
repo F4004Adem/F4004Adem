@@ -8,6 +8,5 @@ public class Pratik14_1_100_ArasindakiAsalSayilar {
 
 
 
-
     }
 }
