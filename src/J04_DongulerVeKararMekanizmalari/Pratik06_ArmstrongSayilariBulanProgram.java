@@ -2,6 +2,7 @@ package J04_DongulerVeKararMekanizmalari;
 
 import java.util.Scanner;
 
+
 public class Pratik06_ArmstrongSayilariBulanProgram {
     public static void main(String[] args) {
 /*
@@ -16,6 +17,7 @@ N haneli bir sayının basamaklarının n’inci üstlerinin toplamı, sayının
 
 54748=5^5+4^5+7^5+4^5+8^5=3125+1024+16807+1024+32768=54748
  */
+
         int number;
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı giriniz:");

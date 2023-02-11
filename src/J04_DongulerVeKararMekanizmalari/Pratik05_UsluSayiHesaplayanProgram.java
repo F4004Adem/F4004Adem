@@ -2,6 +2,7 @@ package J04_DongulerVeKararMekanizmalari;
 
 import java.util.Scanner;
 
+
 public class Pratik05_UsluSayiHesaplayanProgram {
     public static void main(String[] args) {
 /*
