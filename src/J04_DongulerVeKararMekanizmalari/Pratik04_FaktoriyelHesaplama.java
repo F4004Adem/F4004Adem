@@ -1,7 +1,9 @@
 package J04_DongulerVeKararMekanizmalari;
 
+
 import java.util.Scanner;
 //Java ile faktöriyel hesaplayan program yazıyoruz.
+
 public class Pratik04_FaktoriyelHesaplama {
     public static void main(String[] args) {
         // n!= 1*2*3*4*....*n
