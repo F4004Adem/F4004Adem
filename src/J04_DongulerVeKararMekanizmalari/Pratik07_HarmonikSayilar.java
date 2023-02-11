@@ -10,6 +10,7 @@ Harmonik Seri Formülü :
  */
 
 
+
         Scanner input = new Scanner(System.in);
         int sayi;
         double harm = 0, unit = 0;
