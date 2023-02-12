@@ -2,6 +2,8 @@ package J03_KosulluIfadelerVeKodBloklari;
 
 public class C04_If_ElseBloklari {
     public static void main(String[] args) {
+
+
 double creditRatio=0.5;
 int age = 44;
 
@@ -54,6 +56,7 @@ int i = 15;
         // NESTED IF
         int age1=25;
         int weight=48;
+
 
         if(age>=18){
 
