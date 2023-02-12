@@ -3,7 +3,10 @@ package J03_KosulluIfadelerVeKodBloklari;
 import java.util.Scanner;
 
 public class C04_SwitchCaseYapisi {
+
     public static void main(String[] args) {
+
+
         int day =2;
         switch(day) {
             case 1:
@@ -32,6 +35,7 @@ public class C04_SwitchCaseYapisi {
             default:System.out.println(" Hatali giris yaptiniz ");
                 // değer hiç bir şeye eşit değilse bu kod bloğu çalışacak
         }
+
 
 
         // Kullanicidan Alma ile oluyor
