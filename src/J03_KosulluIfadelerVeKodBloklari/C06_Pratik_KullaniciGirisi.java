@@ -9,6 +9,7 @@ ekrana "Şifre oluşturulamadı, lütfen başka şifre giriniz." sorun yoksa "Ş
 yazan programı yazınız.
  */
 public class C06_Pratik_KullaniciGirisi {
+
     public static void main(String[] args) {
 
         String userName, password;
@@ -17,6 +18,7 @@ public class C06_Pratik_KullaniciGirisi {
         userName = scan.nextLine();
         System.out.print("Sifreniz  :  ");
         password = scan.nextLine();
+
         if (userName.equals("patika") && password.equals("java123")){
             System.out.println("Basari ile giris yaptiniz. Tebrikler!!! ");
         }else {
