@@ -9,7 +9,9 @@ Sıcaklık 10 ve 25 arasında ise "Piknik" etkinliğini öner.
 Sıcaklık 25'ten büyük ise "Yüzme" etkinliğini öner.
  */
 public class C08_Pratik_HavaSicakliginaGoreEtkinlikOnerme {
+
     public static void main(String[] args) {
+
        int temperature ;
         Scanner scan = new Scanner(System.in);
         System.out.print("Sicaklik Giriniz : ");
