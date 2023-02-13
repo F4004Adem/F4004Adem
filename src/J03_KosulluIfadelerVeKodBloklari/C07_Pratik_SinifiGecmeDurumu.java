@@ -7,7 +7,9 @@ Geçme Notu : 55
 Eğer girilen ders notları 0 veya 100 arasında değil ise ortalamaya katılmasın.
  */
 public class C07_Pratik_SinifiGecmeDurumu {
+
     public static void main(String[] args) {
+
        int maths , physics, chemistry, turkish, music;
         Scanner scan = new Scanner(System.in);
         System.out.print("Matematik Notnuz : ");
