@@ -5,7 +5,9 @@ import java.util.Scanner;
 Girilen 3 sayıyı "küçükten büyüğe" sıralayan programı yazınız.
  */
 public class C09_Pratik_SayilariBuyuktenKucugeSiralama {
+
     public static void main(String[] args) {
+
        int a,b,c;
         Scanner scan = new Scanner(System.in);
         System.out.print("1.Sayiyi Giriniz : ");
