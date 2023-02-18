@@ -16,6 +16,7 @@ public class C08_Pratik_HavaSicakliginaGoreEtkinlikOnerme {
         Scanner scan = new Scanner(System.in);
         System.out.print("Sicaklik Giriniz : ");
         temperature = scan.nextInt();
+
         if (temperature <5) {
             System.out.println("Kayak Yapabilirsiniz ;");
         }else if (temperature <=25){
