@@ -9,6 +9,7 @@ public class C09_Pratik_SayilariBuyuktenKucugeSiralama {
     public static void main(String[] args) {
 
        int a,b,c;
+
         Scanner scan = new Scanner(System.in);
         System.out.print("1.Sayiyi Giriniz : ");
         a = scan.nextInt();
@@ -16,6 +17,7 @@ public class C09_Pratik_SayilariBuyuktenKucugeSiralama {
         b = scan.nextInt();
         System.out.print("3.Sayiyi Giriniz : ");
         c = scan.nextInt();
+
         if ((a>b) && (a>c)){
             if (b>c){System.out.println("a > b > c");
             }else {System.out.println("a > c > b");
