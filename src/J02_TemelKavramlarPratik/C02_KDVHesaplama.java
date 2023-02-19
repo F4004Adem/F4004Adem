@@ -3,7 +3,9 @@ package J02_TemelKavramlarPratik;
 import java.util.Scanner;
 
 public class C02_KDVHesaplama {
+
     public static void main(String[] args) {
+
         double price, kdVratio=0.18, kdVprice, priceWithKDV;
 
         Scanner scan = new Scanner(System.in);
