@@ -3,7 +3,9 @@ package J02_TemelKavramlarPratik;
 import java.util.Scanner;
 
 public class C03_DikUcgenHipotenusHesaplama {
+
     public static void main(String[] args) {
+
         int a, b;
         double c;
         Scanner scanner = new Scanner(System.in);
