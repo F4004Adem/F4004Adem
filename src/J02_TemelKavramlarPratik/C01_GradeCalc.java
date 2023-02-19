@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C01_GradeCalc {
     public static void main(String[] args) {
+
         int math, physics, chemistry, history, music;
 
         Scanner scan = new Scanner(System.in);
