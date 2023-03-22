@@ -7,6 +7,7 @@ public class C04_TaksimetreHesaplama {
     public static void main(String[] args) {
 
 
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter distance you will travel to : ");
        int distanceKM = scanner.nextInt();
